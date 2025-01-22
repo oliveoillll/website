@@ -1,0 +1,59 @@
+// Variables
+$primary-color: #621220;
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+}
+.w3-text-teal {
+  color: $primary-color !important;
+}
+
+// Override w3-teal class
+.w3-teal {
+  background-color: $primary-color !important;
+  color: #fff !important;
+}
+
+// Override progress bars and other teal backgrounds
+.w3-container.w3-teal,
+.w3-round-xlarge.w3-teal {
+  background-color: $primary-color !important;
+}
+
+// Override hover states
+.w3-hover-teal:hover {
+  background-color: $primary-color !important;
+  color: #fff !important;
+}
+
+.w3-hover-text-teal:hover {
+  color: $primary-color !important;
+}
+
+// Override footer
+footer.w3-teal {
+  background-color: $primary-color !important;
+}
+
+// Override any teal borders
+.w3-border-teal {
+  border-color: $primary-color !important;
+}
+
+// Override tag backgrounds
+.w3-tag.w3-teal {
+  background-color: $primary-color !important;
+}
+
+// Override any teal icons
+.w3-text-teal.fa,
+.fa-fw.w3-text-teal {
+  color: $primary-color !important;
+}

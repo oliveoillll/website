@@ -1,0 +1,88 @@
+{
+  "basics": {
+    "name": "David Loder",
+    "role": "Web Developer",
+    "location": "Philadelphia, PA",
+    "email": "davidloder92@gmail.com",
+    "phone": "+1(999) 999-9999",
+    "profilePic": "/img/profilepic.jpeg"
+  },
+  "skills": [
+    {
+      "name": "React JS",
+      "level": 90
+    },
+    {
+      "name": "Java",
+      "level": 60
+    },
+    {
+      "name": "Python",
+      "level": 50
+    },
+    {
+      "name": "MongoDb",
+      "level": 70
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "level": 100
+    }
+  ],
+  "workExperience": [
+    {
+      "position": "Teaching Assistant",
+      "company": "Temple University",
+      "startDate": "August 2024",
+      "endDate": "Current",
+      "description": "Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste."
+    },
+    {
+      "position": "Consumer Electronic Agent",
+      "company": "BestBuy / Geek Squad",
+      "startDate": "Nov 2021",
+      "endDate": "Current",
+      "description": "Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste."
+    },
+    {
+      "position": "Mobile App Developer",
+      "company": "Lenegan Plumbing & Heating",
+      "startDate": "Mar 2021",
+      "endDate": "Nov 2021",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    }
+  ],
+  "education": [
+    {
+      "school": "Temple University",
+      "degree": "Information Science & Technology",
+      "startDate": "January 2020",
+      "endDate": "May 2026",
+      "description": "Web Development! All I need to know in one place"
+    },
+    {
+      "school": "London Business School",
+      "degree": "Master Degree",
+      "startDate": "2013",
+      "endDate": "2015",
+      "description": "Master Degree"
+    },
+    {
+      "school": "School of Coding",
+      "degree": "Bachelor Degree",
+      "startDate": "2010",
+      "endDate": "2013",
+      "description": "Bachelor Degree"
+    }
+  ],
+  "socialMedia": {
+    "facebook": true,
+    "instagram": true,
+    "snapchat": true,
+    "pinterest": true,
+    "twitter": true,
+    "linkedin": true
+  }
+}

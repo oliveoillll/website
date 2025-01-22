@@ -1,0 +1,45 @@
+{
+  "name": "html_css",
+  "version": "1.0.0",
+  "description": "A template for an upcoming TUDev workshop on creating a portfolio website.",
+  "main": "dist/index.html",
+  "scripts": {
+    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run babel && npm run usemin && npm run scss",
+    "babel": "npx babel js --out-dir dist/js",
+    "clean": "rimraf dist",
+    "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html",
+    "imagemin": "imagemin img/* -o dist/img && imagemin img/about/* -o dist/img/about && imagemin img/logos/* -o dist/img/logos && imagemin img/portfolio/* -o dist/img/portfolio",
+    "copyfonts": "copyfiles -f node_modules/@fortawesome/fontawesome-free/webfonts/* dist/webfonts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run watch:all",
+    "lite": "lite-server",
+    "scss": "sass --style=compressed css/style.scss dist/css/style.css",
+    "watch:scss": "sass --source-map -w css/style.scss css/style.css",
+    "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\""
+  },
+  "author": "David Loder",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.14.0",
+    "bootstrap-icons": "^1.11.2",
+    "copyfiles": "^2.3.0",
+    "font-awesome": "^4.7.0",
+    "imagemin": "^7.0.1",
+    "imagemin-cli": "^5.1.0",
+    "imagemin-keep-folder": "^5.3.2",
+    "rimraf": "^2.6.2",
+    "terser": "^5.37.0",
+    "uglify-js": "^3.19.3",
+    "usemin-cli": "^0.6.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.26.4",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "cli-glob": "^0.1.0",
+    "lite-server": "^2.5.4",
+    "onchange": "^7.1.0",
+    "parallelshell": "^3.0.1",
+    "sass": "^1.83.3"
+  }
+}
