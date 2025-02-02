@@ -4,7 +4,7 @@
   "description": "A template for an upcoming TUDev workshop on creating a portfolio website.",
   "main": "dist/index.html",
   "scripts": {
-    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run babel && npm run usemin && npm run scss ",
+    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run babel && npm run usemin && npm run scss && npm run copyjson",
     "babel": "npx babel js --out-dir dist/js",
     "clean": "rimraf dist",
     "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html",
