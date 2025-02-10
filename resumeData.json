@@ -60,21 +60,21 @@
       "degree": "Information Science & Technology",
       "startDate": "January 2020",
       "endDate": "May 2026",
-      "description": "Web Development! All I need to know in one place"
+      "description": "Information Science & Technology"
     },
     {
-      "school": "London Business School",
-      "degree": "Master Degree",
-      "startDate": "2013",
-      "endDate": "2015",
-      "description": "Master Degree"
+      "school": "Camden County College",
+      "degree": "Liberal Arts",
+      "startDate": "2012",
+      "endDate": "2016",
+      "description": "Liberal Arts"
     },
     {
-      "school": "School of Coding",
-      "degree": "Bachelor Degree",
+      "school": "Atlantic Cape Community College",
+      "degree": "Liberal Arts",
       "startDate": "2010",
       "endDate": "2013",
-      "description": "Bachelor Degree"
+      "description": "Liberal Arts"
     }
   ],
   "socialMedia": {

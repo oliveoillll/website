@@ -21,24 +21,86 @@ This project is a template designed to make it easy for you to showcase yourself
 
 ## 📋 Getting Started
 
-### Prerequisites
+### Development Environment Setup
 
-- Install [Node.js](https://nodejs.org/) (includes npm).
-- Install [Git](https://git-scm.com/)
+#### Windows (using Chocolatey)
+
+1. Open PowerShell as Administrator and run:
+
+```powershell
+# Install Chocolatey
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+
+# Install Required Tools
+choco install nodejs git vscode -y
+```
+
+#### macOS (using Homebrew)
+
+1. Open Terminal and run:
+
+```bash
+# Install Homebrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# Install Required Tools
+brew install node git
+brew install --cask visual-studio-code
+```
+
+#### Linux (Ubuntu/Debian)
+
+1. Open Terminal and run:
+
+```bash
+# Update package manager
+sudo apt update && sudo apt upgrade
+
+# Install Node.js
+curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+# Install Git
+sudo apt-get install git
+
+# Install VS Code
+sudo apt-get install wget gpg
+wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
+sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
+rm -f packages.microsoft.gpg
+sudo apt update
+sudo apt install code
+```
+
+### Verify Installation
+
+Run these commands to verify everything is installed correctly:
+
+```bash
+node --version
+npm --version
+git --version
+code --version
+```
+
+### Additional Setup Requirements
+
 - Sign up for a free GitHub account on [GitHub](https://github.com/)
-- Sign up for a free account on [Netlify](https://www.netlify.com/).
+- Sign up for a free account on [Netlify](https://www.netlify.com/)
 
 ---
 
-### Setup Steps
+### Project Setup Steps
 
 1. **Clone the Repository**
+
    ```bash
    git clone https://github.com/WebsiteHTMLWorkshop.git
    cd WebsiteHTMLWorkshop
    ```
-2. **Install Dependencies**
 
+2. **Install Dependencies**
    Run the following command to install required npm packages:
 
    ```bash
@@ -46,7 +108,6 @@ This project is a template designed to make it easy for you to showcase yourself
    ```
 
 3. **Update Your Info**
-
    Open the `resumeData.json` file and update it with your details:
 
    ```json
@@ -62,7 +123,6 @@ This project is a template designed to make it easy for you to showcase yourself
    ```
 
 4. **Run the Project Locally**
-
    Use the following command to start the development server:
 
    ```bash
@@ -72,7 +132,6 @@ This project is a template designed to make it easy for you to showcase yourself
    Open http://localhost:3000 in your browser to see your website.
 
 5. **Build for Production**
-
    To generate the optimized files for deployment, run:
 
    ```bash
@@ -82,7 +141,6 @@ This project is a template designed to make it easy for you to showcase yourself
    Your site will be ready in the `dist/` folder.
 
 6. **Deploy to Netlify**
-
    We will cover this step during the workshop
 
 ## 📜 Scripts
@@ -99,6 +157,23 @@ Below are the key npm scripts you can use:
 
 - Customize your site by editing `index.html` or styling with `css/style.scss`.
 - For advanced changes, update other files in the repository as needed.
+
+## Troubleshooting Tips
+
+### Windows
+
+- If you get permissions errors, make sure you're running PowerShell as Administrator
+- If Chocolatey commands fail, try refreshing your PowerShell session
+
+### macOS
+
+- If Homebrew commands fail, try running `brew doctor`
+- Make sure your system PATH includes Homebrew's bin directory
+
+### Linux
+
+- If apt commands fail, try running `sudo apt update` first
+- For VS Code, you might need to restart your system after installation
 
 ## ❤️ Acknowledgements
 
