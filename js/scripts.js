@@ -103,13 +103,27 @@ function renderResume(data) {
     educationContainer.innerHTML + educationTemplate;
 
   // Render social media icons
+  // Render social media icons with corresponding links
   const socialContainer = document.querySelector("footer");
-  Object.entries(data.socialMedia).forEach(([platform, show]) => {
-    const icon = socialContainer.querySelector(
-      `.fa-${platform === "facebook" ? "facebook-official" : platform}`
-    );
+  const socialMediaData = data.socialMedia;
+
+  Object.entries(socialMediaData).forEach(([platform, url]) => {
+    const iconClass =
+      platform === "facebook" ? "fa-facebook-official" : `fa-${platform}`;
+    const icon = socialContainer.querySelector(`.${iconClass}`);
+
     if (icon) {
-      icon.style.display = show ? "inline" : "none";
+      if (url) {
+        // Wrap the icon in an anchor tag
+        const link = document.createElement("a");
+        link.href = url;
+        link.target = "_blank";
+        link.appendChild(icon.cloneNode(true));
+        icon.replaceWith(link);
+      } else {
+        // Hide the icon if URL is empty
+        icon.style.display = "none";
+      }
     }
   });
 }

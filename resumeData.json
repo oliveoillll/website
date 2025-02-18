@@ -1,9 +1,9 @@
 {
   "basics": {
     "name": "David Loder",
-    "role": "Web Developer",
+    "role": "IT Consultant",
     "location": "Philadelphia, PA",
-    "email": "davidloder92@gmail.com",
+    "email": "davidloder92@temple.edu",
     "phone": "+1(999) 999-9999",
     "profilePic": "/img/profilepic.jpeg"
   },
@@ -28,6 +28,10 @@
   "languages": [
     {
       "name": "English",
+      "level": 100
+    },
+    {
+      "name": "Jibberish",
       "level": 100
     }
   ],
@@ -78,11 +82,11 @@
     }
   ],
   "socialMedia": {
-    "facebook": true,
-    "instagram": true,
-    "snapchat": true,
-    "pinterest": true,
-    "twitter": true,
-    "linkedin": true
+    "facebook": "",
+    "instagram": "",
+    "snapchat": "",
+    "pinterest-p": "",
+    "twitter": "",
+    "linkedin": ""
   }
 }
