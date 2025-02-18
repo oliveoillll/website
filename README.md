@@ -96,7 +96,7 @@ code --version
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/WebsiteHTMLWorkshop.git
+   git clone https://github.com/tudev/WebsiteHTMLWorkshop.git
    cd WebsiteHTMLWorkshop
    ```
 
