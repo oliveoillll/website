@@ -41,7 +41,9 @@
       "company": " DKT Consulting Firm",
       "startDate": "May 2021",
       "endDate": "Current",
-      "description": ""
+      "description": "Worked alongside a Security Engineer, collected data for a lab environment for large school district Cortex XDR | JavaScript | Docker | VMWare",
+      "description": "tasks like data ingestion using Cortex XDR to collect logs into the SIEM platform, with ingest rates of 1000 - 2000 EPS (events per second)"
+      
     },
     {
       "position": "Consumer Electronic Agent",
