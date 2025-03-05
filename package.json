@@ -5,7 +5,8 @@
   "main": "dist/index.html",
   "scripts": {
     "copyhtml": "copyfiles \"*.html\" dist",
-    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run babel && npm run usemin && npm run scss && npm run copyjson && npm run copyhtml",
+    "copycss": "copyfiles -f ./css/w3schools.css dist/css",
+    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run babel && npm run usemin && npm run scss && npm run copyjson && npm run copyhtml && npm run copycss",
     "babel": "npx babel js --out-dir dist/js",
     "clean": "rimraf dist",
     "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html",
