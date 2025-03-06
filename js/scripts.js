@@ -73,6 +73,8 @@ function renderResume(data) {
                     : work.endDate
                 }
             </h6>
+            <i>${work.brief}</i>
+            <br><b>${work.skillset}</b>        
             <p>${work.description}</p>
             ${work.endDate === "Current" ? "" : "<hr>"}
         </div>

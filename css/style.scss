@@ -1,5 +1,5 @@
 // Variables
-$primary-color: #621220;
+$primary-color: #52bf90;
 
 html,
 body,
@@ -18,7 +18,7 @@ h6 {
 // Override w3-teal class
 .w3-teal {
   background-color: $primary-color !important;
-  color: #fff !important;
+  color: #000000 !important;
 }
 
 // Override progress bars and other teal backgrounds

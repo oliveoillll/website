@@ -10,43 +10,43 @@ h6 {
 }
 
 .w3-text-teal {
-  color: #621220 !important;
+  color: #52bf90 !important;
 }
 
 .w3-teal {
-  background-color: #621220 !important;
-  color: #fff !important;
+  background-color: #52bf90 !important;
+  color: #000000 !important;
 }
 
 .w3-container.w3-teal,
 .w3-round-xlarge.w3-teal {
-  background-color: #621220 !important;
+  background-color: #52bf90 !important;
 }
 
 .w3-hover-teal:hover {
-  background-color: #621220 !important;
+  background-color: #52bf90 !important;
   color: #fff !important;
 }
 
 .w3-hover-text-teal:hover {
-  color: #621220 !important;
+  color: #52bf90 !important;
 }
 
 footer.w3-teal {
-  background-color: #621220 !important;
+  background-color: #52bf90 !important;
 }
 
 .w3-border-teal {
-  border-color: #621220 !important;
+  border-color: #52bf90 !important;
 }
 
 .w3-tag.w3-teal {
-  background-color: #621220 !important;
+  background-color: #52bf90 !important;
 }
 
 .w3-text-teal.fa,
 .fa-fw.w3-text-teal {
-  color: #621220 !important;
+  color: #52bf90 !important;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -4,34 +4,54 @@
     "role": "UNEMPLOYED!!!!!!!!",
     "location": "Philadelphia, PA",
     "email": "olivertran1905@gmail.com",
-    "phone": "+1(267) 760-0099",
+    "phone": "+1(267)-760-0099",
     "profilePic": "/img/profilepicture.gif"
   },
   "skills": [
     {
-      "name": "React JS",
+      "name": "NetworkMiner",
       "level": 90
     },
     {
-      "name": "Java",
-      "level": 60
+      "name": "Wireshark",
+      "level": 90
+    },
+    {
+      "name": "Autopsy",
+      "level": 90
+    },
+    {
+      "name": "FTK Imager",
+      "level": 90
     },
     {
       "name": "Python",
-      "level": 50
+      "level": 70
     },
     {
-      "name": "MongoDb",
+      "name": "Java",
+      "level": 85
+    },
+    {
+      "name": "C",
       "level": 70
+    },
+    {
+      "name": "C++",
+      "level": 70
+    },
+    {
+      "name": "VMWare",
+      "level": 90
+    },
+    {
+      "name": "Linux",
+      "level": 80
     }
   ],
   "languages": [
     {
       "name": "English",
-      "level": 100
-    },
-    {
-      "name": "Jibberish",
       "level": 100
     }
   ],
@@ -41,44 +61,43 @@
       "company": " DKT Consulting Firm",
       "startDate": "May 2021",
       "endDate": "Current",
-      "description": "Worked alongside a Security Engineer, collected data for a lab environment for large school district Cortex XDR | JavaScript | Docker | VMWare tasks like data ingestion using Cortex XDR to collect logs into the SIEM platform, with ingest rates of 1000 - 2000 EPS (events per second) Coordinated communication with clients, schedule appointments, and managed business relations Managed documents, contracts, as well as server access and audit records Implemented Cortex XDR agent functions, configurations, and deployments Identified, analyzed and resolved cyber threats, using methods such as device log ingestion Built out and deployed Linux applications on VMWare Deployed Cribl using Docker Containers Used Cribl to enrich and parse incoming data"
+      "skillset": "Cortex XDR | JavaScript | Docker | VMWare", 
+      "brief": "Worked alongside a Security Engineer, collected data for a lab environment for large school district",
+      "description": "<ul> <li>Assisted tasks like data ingestion using Cortex XDR to collect logs into the SIEM platform, with ingest rates of 1000 - 2000 EPS (events per second)</li><li> Coordinated communication with clients, schedule appointments, and managed business relations</li><li> Managed documents, contracts, as well as server access and audit records </li><li>Implemented Cortex XDR agent functions, configurations, and deployments</li> <li>Identified, analyzed and resolved cyber threats, using methods such as device log ingestion</li><li>Built out and deployed Linux applications on VMWare</li><li> Deployed Cribl using Docker Containers</li><dd> - Used Cribl to enrich and parse incoming data</dd> </ul>"
     },
     {
-      "position": "Consumer Electronic Agent",
-      "company": "BestBuy / Geek Squad",
-      "startDate": "Nov 2021",
-      "endDate": "Current",
-      "description": "Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste."
+      "position": "Back-End Developer, QA Tester",
+      "company": "Educational Tool",
+      "startDate": "October 2024",
+      "endDate": "October 2024",
+      "skillset": "JavaScript | Node.js | Python | Git", 
+      "brief": "https://github.com/MaxSuck/Hackathon",
+      "description": "<ul> <li> AI Tool designed for educators to design quizzes for children in an easily digestible manner using gamified learning. Uses content similar to that seen on social media to better connect with younger children.</li> </ul>"
     },
     {
-      "position": "Mobile App Developer",
-      "company": "Lenegan Plumbing & Heating",
-      "startDate": "Mar 2021",
-      "endDate": "Nov 2021",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+      "position": "Customer Service Associate, Front Desk",
+      "company": "Tony Roni's",
+      "startDate": "May 2021",
+      "endDate": "September 2023",
+      "skillset": "",
+      "brief": "Assisted customers with orders",
+      "description": "<ul> <li>Developed multi-tasking and time management skills under a high-pressure environment</li><li>Developed resource management skills such as taking stock as well as the ability to preemptively managing tasks in preparation for a heavier workload</li><li> Thorough understanding of customer communication skills, as well as strong communication skills with peers and co-workers.</li> </ul>"
     }
   ],
   "education": [
     {
       "school": "Temple University",
-      "degree": "Information Science & Technology",
-      "startDate": "January 2020",
-      "endDate": "May 2026",
-      "description": "Information Science & Technology"
+      "degree": "Bachelor of Science in Cybersecurity",
+      "startDate": "August 2023",
+      "endDate": "Expected Graduation: Spring 2027",
+      "description": "Bachelor of Science in Cybersecurity"
     },
     {
-      "school": "Camden County College",
-      "degree": "Liberal Arts",
-      "startDate": "2012",
-      "endDate": "2016",
-      "description": "Liberal Arts"
-    },
-    {
-      "school": "Atlantic Cape Community College",
-      "degree": "Liberal Arts",
-      "startDate": "2010",
-      "endDate": "2013",
-      "description": "Liberal Arts"
+      "school": "Wissahickon High School",
+      "degree": "High School Diploma",
+      "startDate": "August 2019",
+      "endDate": "June 2023",
+      "description": "High School Diploma"
     }
   ],
   "socialMedia": {
